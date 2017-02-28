@@ -21,4 +21,9 @@ public class StringOutputService {
         JOptionPane.showInputDialog(msg);
     }
     
+     public void outputStringToConsoleAndGui(String msg){
+        JOptionPane.showInputDialog(msg); 
+        System.out.println(msg); 
+    }
+    
 }

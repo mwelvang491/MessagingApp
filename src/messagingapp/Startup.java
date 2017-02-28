@@ -14,7 +14,7 @@ public class Startup {
     public static void main(String[] args) {    
         MessagingApplication messagingApp = new MessagingApplication();
            Message basicMsg = new BasicMessage();
-           Message tweet = new Tweet();
+           Message shortMsg = new ShortMessage();
 
 
 //         Input msgIn = new ScannerInput();
@@ -29,9 +29,9 @@ public class Startup {
 
 //        messagingApp.runBasicConsoleMessagingApplication(tweet);
 //        messagingApp.runBasicConsoleMessagingApplication(basicMsg);
-        
-//        messagingApp.runGuiMessagingApplication(tweet);
-          messagingApp.runGuiMessagingApplication(basicMsg);   
+                       
+          messagingApp.runGuiMessagingApplication(shortMsg);
+//        messagingApp.runGuiMessagingApplication(basicMsg);   
         
     }
 }
