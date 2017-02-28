@@ -14,7 +14,7 @@ then be able to...
 
 [ ]-needs to allow for different types of output/input in the future.
 
-	[ ]-Follow Best Practices. 
+[ ]-Follow Best Practices. 
 
 
 
@@ -25,11 +25,11 @@ Message.
 
 MessageInput. (Super)
    -Scanner.
-   -Keyboard Reader.
+   -GUI Input.
 
 MessageOutput. (Super)
    -System Out.
-   -File Out.
+   -GUI Output.
 
 MessageDirector. (Gets From Input, Sends to Output). 
 
