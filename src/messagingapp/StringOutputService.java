@@ -18,11 +18,11 @@ public class StringOutputService {
     }
     
     public void outputStringToGui(String msg){
-        JOptionPane.showInputDialog(msg);
+        JOptionPane.showMessageDialog(null, msg); 
     }
     
      public void outputStringToConsoleAndGui(String msg){
-        JOptionPane.showInputDialog(msg); 
+        JOptionPane.showMessageDialog(null, msg); 
         System.out.println(msg); 
     }
     
